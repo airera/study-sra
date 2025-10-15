@@ -61,4 +61,4 @@ Copyright © 2025 Julian Frattini and Quim Motger.
 This work is licensed under [MIT License](./LICENSE).
 
 [^1]: Nakagawa, E. Y., Guessi, M., Maldonado, J. C., Feitosa, D., & Oquendo, F. (2014, April). Consolidating a process for the design, representation, and evaluation of reference architectures. In 2014 IEEE/IFIP Conference on Software Architecture (pp. 143-152). IEEE.
-[^2] Use the "Cite this Repository"-function on GitHub based on the CITATION.cff file.
+[^2]: Use the "Cite this Repository"-function on GitHub based on the CITATION.cff file.
