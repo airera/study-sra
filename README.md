@@ -7,6 +7,10 @@
 This repository contains the replication package for the study designing a software reference architecture (SRA) for natural-language processing (NLP) based requirements engineering (RE) tools (NLP4RE).
 The design follows the ProSA-RA process by Nakagawa et al.[^1].
 
+> [!important]
+> This repository currently contains only 2 out of the 4 staps from the SRA creation framework.
+> The remaining 2 steps are future work of the current research preview.
+
 ## Author and Article Details
 
 The following authors were involved in the study.
@@ -18,7 +22,7 @@ The following authors were involved in the study.
 
 Contact the corresponding authors via https://julianfrattini.github.io/ and https://quim-motger.github.io/.
 
-*Cite this work as:* Frattini, J., and Motger, Q. Towards a Software Reference Architecture for Natural Language Processing Tools in Requirements Engineering. _Under Review_.
+*Cite this work as:* Frattini, J., and Motger, Q. Towards a Software Reference Architecture for Natural Language Processing Tools in Requirements Engineering. _Under Review_.[^2]
 
 ## Description of Artifacts
 
@@ -28,16 +32,28 @@ This repository contains the following files:
 ├── data: all data used in this study
 │   ├── processed: pre-processed data for further analysis and use
 │   └── raw: original data as collected
-├── material: additional material
-│   ├── figures: graphs and figures generated for the study
-│   └── presentations: slides and other material for publication
-├── src: source code used in this study
-├── INSTALL.md : system requirements for this artifact
+├── process : material for the SRA creation process following Nakagawa et al.
+│   ├── 1 - information source identification : elicitation of potential sources of requirements
+│   │   ├── stakeholders : elicitation of requirements from NLP4RE tool users and developers
+│   │   │   ├── Group 1 Functional Requirements : elicited functional requirements
+│   │   │   ├── Group 2 Non-Functional Requirements : elicited non-functional requirements
+│   │   │   ├── Group 3 Domain Concepts : elicited domain concepts
+│   │   │   ├── Group 4 GenAI Challenges : elicited challenges and constraints particular to GenAI
+│   │   │   ├── AIRE'25 Interactive Session Instructions.pptx : slides to introduce the interactive session at the AIRE'25 workshop to elicit requirements
+│   │   │   └── AIRE'25 Results.pdf : formalization of the results from the four groups
+│   │   └── Related Work.xlsx : tabular overview of related scientific manuscripts
+│   └── 2 - architectural analysis : extraction of requirements from the identified sources
+│       ├── Domain Concepts.pdf : ontology of domain concepts
+│       └── Requirements.xlsx : system and reference architecture requirements extracted from all sources
 └── LICENSE.md : license file clarifying reuse of this material
 ```
 
-> [!warning]
-> Add a disclaimer in case some files (e.g., original raw data) are obfuscated or missing due to sensitivity.
+## Usage
+
+Depending on your use case, consult the following files:
+
+- **Replicating the focus group activity**: If you want to replicate the elicitation of requirements from NLP4RE stakeholders, access the *AIRE'25 Interactive Session Instructions.pptx* file that explains the method. For our implementation at AIRE'25, we invited participants to place post-it notes on white boards.
+- **Reviewing the requirements**: If you want to check the requirements that we arrived at, review the *Requirements.xlsx* file. Note the *System* and *Architecture* tabs which contain requirements for NLP4RE systems and for a reference architecture respectively.
 
 ## License
 
@@ -45,3 +61,4 @@ Copyright © 2025 Julian Frattini and Quim Motger.
 This work is licensed under [MIT License](./LICENSE).
 
 [^1]: Nakagawa, E. Y., Guessi, M., Maldonado, J. C., Feitosa, D., & Oquendo, F. (2014, April). Consolidating a process for the design, representation, and evaluation of reference architectures. In 2014 IEEE/IFIP Conference on Software Architecture (pp. 143-152). IEEE.
+[^2] Use the "Cite this Repository"-function on GitHub based on the CITATION.cff file.
