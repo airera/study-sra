@@ -29,9 +29,9 @@ Contact the corresponding authors via https://julianfrattini.github.io/ and http
 This repository contains the following files:
 
 ```
-├── data: all data used in this study
-│   ├── processed: pre-processed data for further analysis and use
-│   └── raw: original data as collected
+├── figures: all data used in this study
+│   ├── Reference Model Draft.pdf : initial draft of an abstract reference model of NLP4RE tools
+│   └── Research Preview Method Overview.pdf : illustration of the applied research method
 ├── process : material for the SRA creation process following Nakagawa et al.
 │   ├── 1 - information source identification : elicitation of potential sources of requirements
 │   │   ├── stakeholders : elicitation of requirements from NLP4RE tool users and developers
