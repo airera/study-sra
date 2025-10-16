@@ -43,6 +43,7 @@ This repository contains the following files:
 │   │   │   └── AIRE'25 Results.pdf : formalization of the results from the four groups
 │   │   └── Related Work.xlsx : tabular overview of related scientific manuscripts
 │   └── 2 - architectural analysis : extraction of requirements from the identified sources
+│       ├── analysis-process.md : process description of the architectural analysis
 │       ├── Domain Concepts.pdf : ontology of domain concepts
 │       └── Requirements.xlsx : system and reference architecture requirements extracted from all sources
 └── LICENSE.md : license file clarifying reuse of this material
@@ -53,7 +54,8 @@ This repository contains the following files:
 Depending on your use case, consult the following files:
 
 - **Replicating the focus group activity**: If you want to replicate the elicitation of requirements from NLP4RE stakeholders, access the *AIRE'25 Interactive Session Instructions.pptx* file that explains the method. For our implementation at AIRE'25, we invited participants to place post-it notes on white boards.
-- **Reviewing the requirements**: If you want to check the requirements that we arrived at, review the *Requirements.xlsx* file. Note the *System* and *Architecture* tabs which contain requirements for NLP4RE systems and for a reference architecture respectively.
+- **Reviewing the architectural analysis**: If you want to review the extraction of requirements from the information sources, access the *Requirements.xlsx* file. In the "System"-tab, you find the requirements in and rationale for them in respective columns. The "Source" and "Locator" columns specify, where this requirement was extracted from. In the *analysis-process.md* file you find a description of the applied extraction and synthesis process.
+- **Accessing the requirements**: If you want to check the requirements that we arrived at, review the *Requirements.xlsx* file. Note the "System" and "Architecture" tabs which contain requirements for NLP4RE systems and for a reference architecture respectively.
 
 ## License
 
