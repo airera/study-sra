@@ -8,8 +8,10 @@ This repository contains the replication package for the study designing a softw
 The design follows the ProSA-RA process by Nakagawa et al.[^1].
 
 > [!important]
-> This repository currently contains only 2 out of the 4 staps from the SRA creation framework.
+> This repository currently contains only 2 out of the 4 steps from the SRA creation framework.
 > The remaining 2 steps are future work of the current research preview.
+
+![Overview of the implemented 2 steps](figures/Research%20Preview%20Method%20Overview.png)
 
 ## Author and Article Details
 
